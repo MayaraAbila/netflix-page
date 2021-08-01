@@ -1,0 +1,18 @@
+@media screen and (max-width:700px){ /*quando a tela estiver menos que 700 px, será aplicado as formatações abaixo, quando ultrapassar, volta para o padrãos*/
+  header .container{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .button{
+    margin-top: 7px;
+    width: 300px;
+  }
+
+}
+
+@media screen and (min-width: 1000px){ /*quando ultrapassar os 1000px, concentro o conteudo no canto da tela*/
+  .description{
+    width: 50%;
+  }
+}
